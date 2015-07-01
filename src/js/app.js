@@ -1,10 +1,10 @@
 /**
  * Created by willem on 7/1/15.
  */
-var math = require('./lib/math');
-var React = require('react');
+let math = require('./lib/math');
+let React = require('react');
 
-var MainView = React.createClass({
+let MainView = React.createClass({
     render() {
         "use strict";
 

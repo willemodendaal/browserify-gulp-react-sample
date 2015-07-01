@@ -1,8 +1,8 @@
 {
-  "name": "browserifyPlay",
+  "name": "browserifyGulpReactSample",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "server.js",
   "dependencies": {
     "react": "^0.13.3"
   },
