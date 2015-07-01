@@ -1,8 +1,6 @@
 /**
  * Created by willem on 7/1/15.
  */
-var a = () => {return 10;}
+var math = require('./lib/math');
 
-
-alert(a(77));
-var ab = 10;
+console.log('xyz');

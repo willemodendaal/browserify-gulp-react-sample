@@ -2,13 +2,21 @@
 /**
  * Created by willem on 7/1/15.
  */
+'use strict';
+
+var math = require('./lib/math');
+
+console.log('xyz');
+
+},{"./lib/math":2}],2:[function(require,module,exports){
 "use strict";
 
-var a = function a() {
-  return 10;
+var add = function add(x, y) {
+    "use strict";
+    return add;
 };
 
-alert(a(77));
-var ab = 10;
+module.exports = add;
 
-},{}]},{},[1]);
+},{}]},{},[1])
+//# sourceMappingURL=bundle.js.map
