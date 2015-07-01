@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^0.13.3"
+  },
   "browserify": {
     "transform": [
       "babelify"
