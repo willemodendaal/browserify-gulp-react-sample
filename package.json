@@ -1,0 +1,26 @@
+{
+  "name": "browserifyPlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "watchify": "^3.2.3"
+  },
+  "scripts": {
+    "watch": "gulp watch   &   watchify \"./src/js/app.js\" -o \"./dist/bundle.js\" -v ",
+    "gulp": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
